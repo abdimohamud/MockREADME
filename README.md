@@ -17,13 +17,11 @@ https://plant-store-d13e3.web.app/
 </p>
 </details>
 
-<details><summary>Trinkets Shop</summary>
-<p>
+
 
 
 <details><summary>Car Sales</summary>
 <p>
-
 
 
 # Car Sales
