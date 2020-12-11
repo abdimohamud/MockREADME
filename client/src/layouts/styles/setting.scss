@@ -1,0 +1,232 @@
+#setting{
+  text-align: center;
+  h1{
+    margin: 6% 0 4% 0;
+  }
+  form{
+    #submitBtn{
+      color: white;
+      background-color: #DB5151;
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.6rem;
+      box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+      margin-top: 1.5%;
+      width:7.3rem;
+    }
+    input{
+      border: 0.06rem solid grey;
+      padding: 0.6%;
+      border-radius: 0.3rem;
+      margin: 1% 0;
+      background-color: #f2f2f2;
+      width:30%;
+    }
+    label{
+      text-align: left;
+      font-size: 0.8rem;;
+    }
+    button{
+        background-color: black;
+        padding: 0.6rem 1.2rem;
+        margin-bottom: 2%;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.6rem;
+        box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+        margin-top: 1.5%;
+    }
+    .checkboxContianer{
+      text-align: left;
+      font-size: 1rem;
+      .checkboxLabel{
+        vertical-align: middle;
+        width: fit-content;
+        margin: 0 2% 0 0;
+      }
+    }
+  }
+
+  #accountSetting{
+    #profilePic{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+    .nameField{
+        width: 13.5%;
+        margin: 1% 0.8%;
+    }
+  }
+
+  #billingSetting{
+    width:30%;
+    text-align: left;
+    margin-left: 35%;
+
+    h1{
+      margin: 20% 0 10% 0;
+      text-align: center;
+    }
+    #nameContainer{
+      width:100%;
+      float: left;
+      margin: 0 0 4% 0;
+      #firstNameContainer{
+        float: left;
+        width: 45%;
+        #firstName{
+          margin: 0 2% 0.8% 0;
+          padding: 0.5rem;
+        }
+      }
+      #lastNameContainer{
+        float: left;
+        width:45%;
+        margin-left: 10%;
+        #lastName{
+          padding: 0.5rem;
+          margin: 0 2% 0.8% 0;
+        }
+      }
+    }
+    input{
+      margin: 0 0 4% 0;
+      width: 100%;
+      border: 0.06rem solid grey;
+      padding: 1.8%;
+    }
+    .checkboxContianer{
+      text-align: left;
+      font-size: 0.8rem;
+      .checkboxLabel{
+        vertical-align: middle;
+        width: fit-content;
+        margin: 0 2% 0 0;
+      }
+    }
+    #submitBtn{
+      margin-left: 37%;
+      margin-top: 3%;
+      width: 7.3rem;
+    }
+  }
+
+  #paymentSetting{
+    text-align: left;
+    margin-left: 35%;
+    width: 30%;
+    input{
+      margin: 0 0 4% 0;
+      width: 100%;
+      border: 0.06rem solid grey;
+      padding: 1.8%;
+    }
+    #cardInfoContainer{
+      width:100%;
+      float: left;
+      margin: 0 0 4% 0;
+      #expirationDateContainer{
+        float: left;
+        width: 65%;
+        margin: 0;
+        #expirationMonth{
+          float: left;
+          width:40%;
+        }
+        #expirationYear{
+          float: left;
+          margin-left: 3%;
+          width:40%
+        }
+        .expirationDate{
+          margin: 0 2% 0.8% 0;
+          padding: 0.5rem;
+        }
+      }
+      #securityCodeContainer{
+        float: left;
+        width:30%;
+        margin: 0 0 0 5%;
+        #securityCode{
+          padding: 0.5rem;
+          margin: 0 2% 0.8% 0;
+        }
+      }
+    }
+    #submitBtn{
+      margin-left: 37%;
+      margin-top: 3%;
+      width: 7.3rem;
+    }
+  }
+
+  #socialMediaSetting{
+    text-align: left;
+    margin-left: 35%;
+    width: 30%;
+    input{
+      margin: 0 0 4% 0;
+      width: 100%;
+      border: 0.06rem solid grey;
+      padding: 1.8%;
+    }
+    #submitBtn{
+      margin-left: 37%;
+      margin-top: 3%;
+      width: 7.3rem;
+    }
+  }
+
+  #preferenceSetting{
+    text-align: left;
+    margin-left: 35%;
+    width: 30%;
+    input{
+      margin: 0 0 4% 0;
+      width: 100%;
+      border: 0.06rem solid grey;
+      padding: 1.8%;
+    }
+    .checkboxContianer{
+      font-size: 0.8rem;
+      .checkboxLabel{
+        width: fit-content;
+        margin: 0 2% 0 0;
+      }
+    }
+    textarea{
+      width: 102%;
+      height: 8rem;
+      background-color: #f2f2f2;
+      border-radius: 0.3rem;
+    }
+    #submitBtn{
+      margin-left: 37%;
+      margin-top: 3%;
+      width: 7.3rem;
+    }
+  }
+
+  #recommendationSetting{
+    text-align: left;
+    margin-left: 35%;
+    width: 30%;
+    p{
+      margin-top: 10%;
+    }
+    .checkboxContianer{
+      font-size: 1rem;
+      .checkboxLabel{
+        width: fit-content;
+        margin: 0 2% 0 0;
+      }
+    }
+    #submitBtn{
+      margin-left: 37%;
+      margin-top: 3%;
+      width: 7.3rem;
+    }
+  }
+}

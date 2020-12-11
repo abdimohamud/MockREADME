@@ -1,0 +1,147 @@
+#landing-page {
+  .hero {
+    text-align: center;
+    background-image: url("../../assets/landing-page/hero-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    #navbar {
+      color: black;
+      background-color: transparent;
+
+      span, .cart-amount {
+        color: white;
+      }
+    }
+
+    h1 {
+      color: white;
+      font-size: 5rem;
+    }
+
+    .input-container {
+      background-color: white;
+      display: flex;
+      max-width: 50%;
+      margin: 0 auto;
+      align-items: center;
+      margin-bottom: 5rem;
+
+      input {
+        border: 0;
+        min-width: 0;
+        flex-grow: 1;
+        padding: 0.5rem 1rem;
+        padding-right: 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      input[type="text"] {
+        font-size: 1.7rem;
+      }
+
+      img {
+        margin: 0rem 0.5rem;
+        height: 1.7rem;
+        vertical-align: text-bottom;
+      }
+    }
+  }
+
+  .tabs-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #979797;
+
+    h2 {
+      margin: 0;
+      padding: 1rem 0;
+      text-align: center;
+      flex-grow: 1;
+      cursor: pointer;
+
+      img {
+        height: 2rem;
+      }
+    }
+
+    .active {
+      background-color: #DB5151;
+    }
+
+    .inactive {
+      opacity: 0.5;
+    }
+  }
+
+  .main-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .genre-container {
+    .row {
+      display: flex;
+      justify-content: space-around;
+
+      .genre {
+        text-align: center;
+        margin: 2rem 0;
+
+        img {
+          width: 15vw;
+        }
+
+        h3 {
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+          font-weight: 700;
+        }
+
+        .count {
+          color: #898A8D;
+        }
+      }
+    }
+  }
+
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+
+    .chart {
+      width: 48%;
+      box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+      padding: 0 1%;
+      box-sizing: border-box;
+
+      .chart-title {
+        margin-left: 3rem;
+
+        img {
+          height: 3.5rem;
+          margin-right: 1rem;
+          vertical-align:text-bottom;
+        }
+      }
+    }
+
+    button {
+      padding: 0.3em 0.5em;
+      display: block;
+      margin: 2rem auto;
+      border: 1px solid black;
+      border-radius: 0.5em;
+      background-color: white;
+      font-size: 1.17em;
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.header_admin {
+  background-color: black;
+}
+
+.header_admin .App-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_admin .App-header img[alt="logo"] {
+  width: clamp(3rem, 4.5rem, 6rem);
+  margin: 1rem;
+}
+
+.header_admin .App-header img[alt="avator"], .header_admin .App-header img[alt="notification"] {
+  width: clamp(1rem, 1.7rem, 2.4rem);
+  margin: 1rem;
+}
+
+.header_admin .App-header .notification_count {
+  position: absolute;
+  top: 1.5%;
+  right: 4.5%;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+.header_admin_nav {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.header_admin_nav figure {
+  width: 20%;
+}
+/*# sourceMappingURL=header_admin.css.map */

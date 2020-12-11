@@ -1,0 +1,70 @@
+#cartListingContainter{
+  padding-top: 1%;
+  height: 9rem;
+  border-top: 0.1rem solid #C4C4C4;
+  font-size: 1rem;
+
+  #beatTitleContainer{
+    width:33.3%;
+    float:left;
+    margin-top: 2%;
+
+    #beatPictureContainer{
+      width:40%;
+      float: left;
+      margin-right: 10%;
+      background-color: yellow;
+      font-size: 1rem;
+
+      #beatPicture{
+        float: left;
+      }
+    }
+
+    #beatPictureContainer::before{
+      content: "";
+      float: left;
+      padding-top: 100%;
+    }
+
+    #beatDescriptionContainer{
+      float: left;
+      text-align: left;
+    }
+  }
+
+  #licenseContainer{
+    width:33.3%;
+    float:left;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2%;
+  }
+
+  #amountContainer{
+    width:33.3%;
+    float:left;
+    text-align: right;
+    font-weight: 700;
+    margin-top: 2%;
+  }
+
+  #buttonContainer{
+    position: inherit;
+    margin-top: 6.2rem;
+    text-align: right;
+
+    .buttonStyle{
+      color: white;
+      background-color: #DB5151;
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.3rem 0.6rem;
+      width: 5.3rem;
+      box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+    }
+    #editButton{
+      margin-right: 1.25rem;
+    }
+  }
+}

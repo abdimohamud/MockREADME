@@ -1,0 +1,30 @@
+#recListingContainer{
+  margin: 8%;
+  font-weight: 400;
+
+  #songTitle {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  #producerName{
+    font-size: 1rem;
+    margin: 1% 0 8% 0;
+  }
+  #recPictureContainer{
+    float: left;
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 15%;
+
+    #recPicture{
+      float: left;
+    }
+  }
+
+  #recPictureContainer::before{
+    content: "";
+    float: left;
+    padding-top: 100%;
+  }
+}

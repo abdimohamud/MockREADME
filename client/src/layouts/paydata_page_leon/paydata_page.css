@@ -1,0 +1,53 @@
+main {
+  width: 100%;
+}
+
+main h1 {
+  font-size: 48px;
+}
+
+main h2 {
+  font-size: 32px;
+}
+
+main article {
+  width: 100%;
+}
+
+main article section {
+  width: 100%;
+}
+
+main article section .revenue_card_trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main article section img[alt="trending chart"] {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+main article section .cardGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main article section .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: gray;
+  width: 20%;
+  margin: 1rem;
+}
+/*# sourceMappingURL=paydata_page.css.map */

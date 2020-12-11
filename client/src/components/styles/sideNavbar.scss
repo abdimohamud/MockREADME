@@ -1,0 +1,30 @@
+#sideNavbar{
+  height: 100%;
+  width:14%;
+  float: left;
+  background-color: #e4e4e4;
+  position: absolute;
+  overflow: auto;
+  padding: 5% 0 0 0;
+  text-align: left;
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /* Sidebar links */
+    li {
+      display: block;
+      color:grey;
+      padding: 1.6rem 1rem 1.6rem 1.3rem;
+      font-size: 1.1rem;
+    }
+
+    /* Links on mouse-over */
+    li:hover {
+      background-color: #555;
+      color: white;
+    }
+  }
+}

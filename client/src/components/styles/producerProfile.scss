@@ -1,0 +1,58 @@
+#producerProfile{
+  width: 100%;
+  height: 14rem;
+  margin-top: 4%;
+  border-bottom:solid 2px grey;
+  #leftContainer{
+    margin-left: 5%;
+    float: left;
+    width: 15%;
+    text-align: center;
+    #pictureContainer{
+      float: left;
+      width: 100%;
+      background-color: blue;
+      margin-bottom: 15%;
+      border-radius: 50%;
+      border: solid #DB5151 5px;
+      #picture{
+        float: left;
+      }
+    }
+    #pictureContainer::before{
+      content: "";
+      float: left;
+      padding-top: 100%;
+    }
+    #firstIcon{
+      margin-left: 5%
+    }
+    img{
+      padding: 2%;
+    }
+  }
+  #rightContainter{
+    width: 60%;
+    margin-left: 7%;
+    float: left;
+    h1{
+      font-size: 2rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+  button{
+    color: white;
+    background-color: #DB5151;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+    width:7rem;
+    float: right;
+  }
+}

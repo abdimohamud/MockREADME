@@ -1,0 +1,48 @@
+header{
+    background-color: black;
+    .User_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img[alt="logo"]{
+            width: clamp(3rem,4.5rem,6rem);
+            
+        }
+        
+        img{
+          margin: 1rem;  
+        }
+        .Header_user_header_item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                color:whitesmoke;
+                text-decoration: none;
+            }
+            h3{
+                margin-right: 1rem;
+                font-size: clamp(12px,16px,20px);
+            }
+         
+            img{
+                width: clamp(1rem,1.7rem,2.4rem);
+               
+            }
+            color:white;
+            .notification_count{
+                position: absolute;
+                top: 1.5%;
+                right: 8.5%;
+                padding: 1px 5px;
+                border-radius: 50%;
+                background-color: red;
+                color: white;
+            }
+        }
+       
+    }
+    
+    
+}

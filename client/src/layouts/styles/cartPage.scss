@@ -1,0 +1,113 @@
+#cartPage{
+
+  #recommendationContainer{
+    float: left;
+    width: 20%;
+
+    #recommendationTitle{
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 25% 5% 1% 8%;
+    }
+    #recommendations{
+      border: solid 0.06rem;
+      border-radius: 0.2rem;
+      margin: 8%;
+      height: 33rem;
+      width: 70%;
+      box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+    }
+  }
+  #contentContainer{
+    width: 80%;
+    float:left;
+
+    #cartTitle{
+      text-align: center;
+      font-size: 2rem;
+      padding: 0 20% 2% 0;
+      margin: 6% 0 4% 0;
+    }
+    #content{
+      width: 65%;
+      float: left;
+      text-align: center;
+
+      #labelContainer{
+        margin-bottom: 1%;
+
+        #beatTitleLabel{
+          width:33.3%;
+          float:left;
+          color: #898A8D;
+        }
+        #licenseLabel{
+          width:33.3%;
+          float:left;
+          text-align: center;
+          color: #898A8D;
+        }
+        #amountLabel{
+          width:33.3%;
+          float:left;
+          text-align: right;
+          color: #898A8D;
+        }
+      }
+
+      #continueButton{
+        background-color: white;
+        text-decoration: underline;
+        border-radius: 0.3rem;
+        width: 100%;
+        padding: 0.3rem 0.6rem;
+        border-color: #898A8D;
+        font-weight: 700;
+      }
+    }
+
+    #summaryContainer{
+      float: left;
+      width: 35%;
+      font-size: 1rem;
+
+      #summaryBox{
+        background-color: #F2F2F2;
+        border-radius: 0.2rem;
+        width:70%;
+        margin: 0 10%;
+        padding: 3% 5%;
+
+        h3{
+          font-size: 1.5rem;
+        }
+        .description{
+          width: 50%;
+          float: left;
+        }
+        .number{
+          width: 50%;
+          float: left;
+          text-align: right;
+        }
+        #couponCodeField{
+          border: 0.06rem solid grey;
+          padding: 3%;
+          border-radius: 0.3rem;
+          margin: 5% 0;
+          width: 93%;
+        }
+        #checkoutBtn{
+          color: white;
+          background-color: #DB5151;
+          border: none;
+          border-radius: 0.3rem;
+          padding: 0.5rem 0.6rem;
+          width:100%;
+          box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+          margin: 10% 0;
+        }
+      }
+    }
+  }
+}

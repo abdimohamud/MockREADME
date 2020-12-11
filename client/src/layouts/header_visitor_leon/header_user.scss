@@ -1,0 +1,109 @@
+
+    .User_header{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img[alt="logo"]{
+            width: clamp(3rem,4.5rem,6rem);
+            
+        }
+        
+        img{
+          margin: 1rem;
+          width: 2rem;  
+        }
+     
+        .Header_user_header_item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                color:whitesmoke;
+                text-decoration: none;
+            }
+            h3{
+                margin-right: 1rem;
+                font-size: clamp(12px,16px,20px);
+            }
+         
+
+            color:white;
+            [data-badge] {
+                position:relative;     
+                &:after {
+                  position:absolute;
+                  right:0px;
+                  top:0px;
+                  min-width:10px;
+                  min-height:10px;
+                  line-height:10px;
+                  padding:5px;
+                  color:#fff;
+                  background-color:#bf1f1f;
+                  font-size:10px;
+                  border-radius:20px;
+                  content:attr(data-badge);
+                  border:solid 1px #c93a3a;
+                }   
+              } 
+
+            
+        }
+        .mobileMenu{
+            display:block;
+            text-align: end;}
+           
+     
+      
+       
+    }
+    .MobileHeaderList{
+      width:30vw;
+      background-color: gray;
+      text-align: end;
+      float:right;
+      z-index: 4;
+      a{
+        color:whitesmoke;
+        text-decoration: none;
+      }
+      h3:hover{
+        background-color: red;
+      }
+      
+      h3{
+          margin: 1rem;
+          font-size:1rem;
+      }
+  
+      img{
+          width: clamp(1rem,1.7rem,2.4rem);
+          margin:1rem
+        
+      }
+      [data-badge] {
+        position:relative;     
+        &:after {
+          position:absolute;
+          right:-0.5rem;
+          top:-1rem;
+          min-width:10px;
+          min-height:10px;
+          line-height:10px;
+          padding:5px;
+          color:#fff;
+          background-color:#bf1f1f;
+          font-size:10px;
+          border-radius:20px;
+          content:attr(data-badge);
+          border:solid 1px #c93a3a;
+        }   
+      } 
+
+  }
+
+      
+     
+    

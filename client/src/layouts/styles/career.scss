@@ -1,0 +1,59 @@
+#career{
+  text-align: center;
+  width: 66%;
+  margin-left: 17%;
+  h1{
+    margin: 6% 0 4% 0;
+  }
+  form{
+    text-align: left;
+    #submitBtn{
+      color: white;
+      background-color: #DB5151;
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.6rem;
+      box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+      margin-top: 1.5%;
+      width:7.3rem;
+    }
+    input{
+      border: 0.06rem solid grey;
+      padding: 0.6%;
+      border-radius: 0.3rem;
+      margin-bottom: 1%;
+      background-color: #f2f2f2;
+      width: 100%;
+    }
+    label{
+      text-align: left;
+      font-size: 0.8rem;;
+    }
+    textarea{
+      width: 101%;
+      border-radius: 0.3rem;
+      background-color: #f2f2f2;
+      height: 15rem;
+    }
+    button{
+        background-color: black;
+        padding: 0.6rem 1.2rem;
+        margin-bottom: 2%;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.6rem;
+        box-shadow: 0.2rem 0.2rem 0.2rem 0.06rem #C4C4C4;
+        margin-top: 1.5%;
+    }
+    .checkboxContianer{
+      text-align: left;
+      font-size: 1rem;
+      .checkboxLabel{
+        vertical-align: middle;
+        width: fit-content;
+        margin: 0 2% 0 0;
+      }
+    }
+  }
+}
